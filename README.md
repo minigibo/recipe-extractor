@@ -77,31 +77,7 @@ The Excel file will have the following structure:
 - Each row contains an ingredient from the corresponding recipe
 - Empty cells indicate recipes with fewer ingredients than others
 
-## Troubleshooting
-
-### Common Issues
-
-**ChromeDriver not found:**
-- Ensure ChromeDriver is downloaded and the path is correct in the script
-- Make sure ChromeDriver version matches your Chrome browser version
-
-**No ingredients extracted:**
-- Verify that the Samsung Food URLs are accessible
-- Check if the website structure has changed (XPath selectors may need updating)
-- Ensure you have internet connection
-
-**Permission errors:**
-- Run the script with appropriate permissions
-- Check that the output directory is writable
-
-### Browser Options
-
-The script runs Chrome in headless mode with these options:
-- `--headless`: Runs without GUI
-- `--no-sandbox`: Disables sandbox for compatibility
-- `--disable-dev-shm-usage`: Prevents memory issues
-
-## Customization
+## Customisation
 
 ### Adding More Recipes
 Simply add more URLs to the `recipe_urls` list:
